@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            rpkn
 tagline:          'Webbprogrammerare'
 description:      'Studerar webbprogrammering på Linneuniversitetet'
-baseurl:          / 
+baseurl:          /
 
 author:
   name:           'Robin Karlsson'
