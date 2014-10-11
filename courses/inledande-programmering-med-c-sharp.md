@@ -28,5 +28,6 @@ Mina datorer kör [Debian GNU/Linux](debian.org). Men bortsett från att behöva
 det är värt att starta windows virtualiseringen då open-source versionen av .net [Mono](http://www.mono-project.com/)
 och att hitta en bra utvecklingsmiljö till Linux känns som ett större projekt.
 Kanske blir att titta närmare på detta då minst två utav de kurser jag ska läsa inom programmet kommer att inehålla .net.
-- [ASP.NET Webforms](https://coursepress.lnu.se/kurs/aspnet-web-forms/) --
+
+- [ASP.NET Webforms](https://coursepress.lnu.se/kurs/aspnet-web-forms/)
 - [ASP.NET MVC](https://coursepress.lnu.se/kurs/aspnet-mvc/)
