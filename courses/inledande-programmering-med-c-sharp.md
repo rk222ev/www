@@ -1,21 +1,24 @@
 ---
 layout: course 
-title: Inledande programmering med C#
 ---
-
+#Inledande programmering med C#
+---
 - [Kursinformation](https://coursepress.lnu.se/kurs/inledande-programmering-med-csharp/)
 
 ---
 
-###Laborationer steg 1.
+##Laborationer steg 1.
 - [1 - Växelpengar](https://github.com/rk222ev/1dv402-rk222ev-1-1-vaxelpengar)
 - [2 - Rita med asterisker](https://github.com/rk222ev/1dv402-rk222ev-1-2-rita-med-asterisker)
 - [3 - Godtycklig lönerevision](https://github.com/rk222ev/1dv402-rk222ev-1-3-godtycklig-lonerevision)
+
 ---
-###Laborationer steg 2.
+
+##Laborationer steg 2.
 - [1 - Gissa det hemliga talet](https://github.com/rk222ev/1dv402-2-1-c-gissa-det-hemliga-talet)
 - [2 - Digital väckarklocka](https://github.com/rk222ev/1dv402-2-2-digital-vackarklocka)
 - [3 - Geometriska figurer](https://github.com/rk222ev/1dv402-2-3-geometriska-figurer)
+
 ---
 
 ##Tankar
