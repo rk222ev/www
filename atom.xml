@@ -4,7 +4,7 @@
  <title>rpkn</title>
  <link href="/atom.xml" rel="self"/>
  <link href="/"/>
- <updated>2014-10-11T12:16:38+02:00</updated>
+ <updated>2014-10-11T15:11:36+02:00</updated>
  <id></id>
  <author>
    <name>Robin Karlsson</name>
@@ -32,16 +32,16 @@ killarna i &lt;a href=&quot;http://www.kodsnack.se/&quot;&gt;kodsnack&lt;/a&gt;?
 
 &lt;h3&gt;Första intrycket&lt;/h3&gt;
 
-&lt;p&gt;Lekte runt lite snabbt med att skapa sidor och poster i bloggen, justerade rubriken och konfigurarion
+&lt;p&gt;Lekte runt lite snabbt med att skapa sidor och poster i bloggen, justerade rubriken och konfiguration
 och kände att det var ganska smidigt. Skapade lite testsidor och då jag lekt lite med markup tidigare på 
-t.ex. &lt;a href=&quot;www.hithub.com&quot;&gt;github&lt;/a&gt; tyckte jag att även detta kändes ganska trevligt.
+t.ex. &lt;a href=&quot;www.github.com&quot;&gt;github&lt;/a&gt; tyckte jag att även detta kändes ganska trevligt.
 Till och med så smidigt och trevligt att jag skrev det här inlägget med tanken att det faktiskt skulle
 vara ett seriöst första inlägg i bloggen.&lt;/p&gt;
 
 &lt;h3&gt;Avslutningsvis&lt;/h3&gt;
 
 &lt;p&gt;Varför göra saker mer komplicerade än vad dom är? Sidan jag ville ha skulle vara lätt att underhålla,
-enkel att generare och framförallt smidig. Känns som att &lt;a href=&quot;http://www.jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; uppfyller dess krav, i vart fall hos mig.&lt;/p&gt;
+enkel att uppdatera och framförallt smidig. Känns som att &lt;a href=&quot;http://www.jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; uppfyller dess krav, i vart fall hos mig.&lt;/p&gt;
 
 &lt;p&gt;Nu är det första och enda programmet jag kikat på men känner att jag kanske inte behöver lägga ner mycket
 mer tid på att leta då det faktiskt var något som &lt;a href=&quot;http://www.jekyllrb.com&quot;&gt;jekyll&lt;/a&gt; som jag var ute efter.&lt;/p&gt;
