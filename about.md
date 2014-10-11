@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Om
+title: Om mig
 ---
-
-# Om mig
 
 ##Studier
 Studerar första året på [webbprogrammerarprogrammet](http://www.webbprogrammerare.se) på [Linnéuniversitetet](http://lnu.se) i Kalmar.
