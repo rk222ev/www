@@ -3,11 +3,9 @@ layout: page
 title: Om mig
 ---
 
-Jag heter Robin Karlsson och studerar till webbprogrammerare på Linnéuniversitetet.
-
-##Studier
-Studerar första året på [webbprogrammerarprogrammet](http://www.webbprogrammerare.se) på [Linnéuniversitetet](http://lnu.se) i Kalmar.
+Jag heter Robin Karlsson och studerar första året på [webbprogrammerarprogrammet](http://www.webbprogrammerare.se) på [Linnéuniversitetet](http://lnu.se) i Kalmar.
 Allmänt teknikintresserad, motorcykelåkare som gillar att programmera och skapa för webben.
+
 
 ##Tidigare arbetslivserfarenhet
 Har tidigare arbetat som Automationselektriker på [Sapa Profiler](http://www.sapagroup.com) där jag, bland mycket annat, programmerade 
