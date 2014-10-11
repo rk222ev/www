@@ -1,5 +1,5 @@
 ---
-layout: course 
+layout: page 
 title: Webbteknisk introduktion 
 ---
 

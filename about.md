@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+navigation: include
 ---
 
 <p class="message">
