@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Kurser 
-navigation: include
 ---
 
 ##Kurser som pågår just nu:
