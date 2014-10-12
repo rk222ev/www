@@ -1,5 +1,5 @@
 ---
-layout: course 
+layout: page 
 ---
 
 #Webbteknisk introduktion 

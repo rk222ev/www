@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Om mig
+navigation: include
 ---
 
 Jag heter Robin Karlsson och studerar första året på [webbprogrammerarprogrammet](http://www.webbprogrammerare.se) på [Linnéuniversitetet](http://lnu.se) i Kalmar.

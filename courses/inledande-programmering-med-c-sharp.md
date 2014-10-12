@@ -1,5 +1,5 @@
 ---
-layout: course 
+layout: page 
 ---
 #Inledande programmering med C sharp
 ---
