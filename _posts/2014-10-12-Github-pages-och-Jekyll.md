@@ -6,7 +6,7 @@ Då är sidan uppe på riktigt och lösningen känns ganska trevlig. Tog ett lit
 som vanligt, gör först och läser sedan. Men resultatet är uppnått och jag känner mig ganska tillfreds med hur utfallet blev.
 Tänkte gå igenom lösningen här nedan.
 
-##Statiskt genererat inehåll med Jekyll
+##Statiskt genererat innehåll med Jekyll
 Som jag skrev i förra posten använder jag mig av [Jekyll](http://www.jekyllrb.com) och "Butlern" [Poole](http://getpoole.com) som 
 tillhandahåller grundläggande funktionalitet och utseende.
 
