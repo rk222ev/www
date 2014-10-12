@@ -12,4 +12,9 @@ layout: course
 
 ##Tankar
 Nyttig kurs som ger bra information. Mycket HTML5 och nya tekniker. Känns fräscht och väldigt up to date.
-Kan ändå konstatera att front end inte känns riktigt som min grej.
+Kan ändå konstatera att design och utseende inte är min starkaste sida och hade väl helst lagt mer tid
+på någon form av programmering.
+
+Men denna webbsida är resultatet av den inspiration man har fått på kursen. Så trots att det inte är 
+programmering så har den varit intressant och givande. Sen är det ju någonstans här som grunden ligger
+även om jag kanske hoppas att bli lite mer inriktad på back end biten.
