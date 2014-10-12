@@ -7,8 +7,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            - Robin Karlsson - rpkn.se
-tagline:          'Webbprogrammerare'
+title:            'rpkn'
+tagline:          'Robin Karlsso, Webbprogrammerare'
 description:      'Robin Karlsson'
 baseurl:          / 
 
