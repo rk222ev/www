@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            rpkn
+tagline:          'Webbprogrammerare'
+description:      'Studerar webbprogrammering på Linneuniversitetet'
+baseurl:          http://www.rpkn.se
+
+author:
+  name:           'Robin Karlsson'
+  url:            https://twitter.com/ropkn
+
+paginate:         5
+
+github:	
+  repo: https://github.com/rk222ev          
