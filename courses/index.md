@@ -2,6 +2,8 @@
 layout: page
 title: Kurser 
 ---
+Samlingssida för kurserna jag går på mitt program. Varje kurs länkar till rätt Github repo.
+Försöker även att fylla på med lite tankar, länkar eller annat som jag kan tycka vara relevant.
 
 ##Kurser som pågår just nu:
 - [Webbteknisk introduktion] (webbteknisk-introduktion)
