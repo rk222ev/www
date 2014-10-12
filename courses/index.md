@@ -35,4 +35,4 @@ Försöker även att fylla på med lite tankar, länkar eller annat som jag kan 
 
 ---
 
-Länkarna går till min sida om respektive kurs. För mer information om kurserna se [webbprogrammerare.se/vara-kurser](http://www.webbprogrammerare.se/vara-kurser]).
+Länkarna går till min sida om respektive kurs. För mer information om kurserna se [webbprogrammerare.se/vara-kurser](http://www.webbprogrammerare.se/vara-kurser).
