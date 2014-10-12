@@ -8,7 +8,7 @@ relative_permalinks: true
 
 # Setup
 title:            'rpkn'
-tagline:          'Robin Karlsso, Webbprogrammerare'
+tagline:          'Robin Karlsson, Webbprogrammerare'
 description:      'Robin Karlsson'
 baseurl:          / 
 
