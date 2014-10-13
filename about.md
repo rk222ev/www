@@ -15,6 +15,5 @@ och då speciellt webben som jag alltid funnit intressant och lockande.
 
 
 ##Kontakt
-- rk222ev@student.lnu.se
 - [Twitter](http://twitter.com/ropkn)
 - [Github](http://www.github.com/rk222ev)
