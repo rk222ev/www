@@ -15,8 +15,8 @@ Försöker även att fylla på med lite tankar, länkar eller annat som jag kan 
 ###Årskurs 1
 - [Webbteknisk introduktion] (webbteknisk-introduktion)
 - [Inledande programmering med C#] (inledande-programmering-med-c-sharp)
-- Webbteknuk I
-- Iterativ mjukvaruutvecklin
+- Webbteknik I
+- Iterativ mjukvaruutveckling
 - Databasteknik
 - ASP.NET Webforms
 - Individuellt mjukvaruutecklingsprojekt
