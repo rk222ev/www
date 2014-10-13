@@ -7,8 +7,9 @@ layout: page
 ---
 
 - [Kursinformation](https://coursepress.lnu.se/kurs/webbteknisk-introduktion/)
-- [Laborationer](https://github.com/rk222ev/1ik415-rk222ev-laborationer)
+- [Laborationer](http://1ik415.rpkn.se/)
 - [Uppgift 3.3 - Copycat](https://github.com/rk222ev/1ik415-Uppgift-3-3)
+- [Uppgift 5.3 - Fotogalleri](http://1ik415.rpkn.se/gallery)
 
 ##Tankar
 Nyttig kurs som ger bra information. Mycket HTML5 och nya tekniker. Känns fräscht och väldigt up to date.
