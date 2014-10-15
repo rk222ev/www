@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Kurser 
-description: Robin Karlssons kursöversikt på Webbprogrammerarprogrammet Linnéuniversitetet.
+description: "Robin Karlssons kurser på Webbprogrammerarprogrammet Linnéuniversitetet."
 ---
 Samlingssida för kurserna jag går på mitt program. Varje kurs länkar till rätt Github repo.
 Försöker även att fylla på med lite tankar, länkar eller annat som jag kan tycka vara relevant.
