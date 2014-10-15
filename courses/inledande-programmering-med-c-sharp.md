@@ -21,6 +21,14 @@ layout: page
 
 ---
 
+##Laborationer steg 3.
+- [1 - Recept på fil](https://github.com/rk222ev/1dv402-3-1-recept-pa-fil)
+ 
+---
+
+##Extra intressanta uppgifter
+Tycker allt efter laboration 2.2 var mycket intressanta och gav en mycket större förståelse för klasser och interface.
+
 ##Tankar
 Tyvärr windowsbaserat. Hade helst sysslat med något där jag inte behöver köra windows i VirtualBox. 
 Mina datorer kör [Debian GNU/Linux](debian.org). Men bortsett från att behöva köra med en virtuell dator
