@@ -29,4 +29,4 @@ innebär att man skapar en fil i sitt github repo med
 namnet CNAME och innehåller den subdomän man vill ska leda till repot. I mitt fall är det www-subdomänen som jag vill använda mig av.
 Alltså blir inehållet i min CNAME-fil "www.rpkn.se".
 
-Läs mer om hur [Github](http://www.github.com fungerar med domäner på [Github pages hjälpavsnitt.](https://help.github.com/categories/github-pages-basics/).
+Läs mer om hur [Github](http://www.github.com) fungerar med domäner på [Github pages hjälpavsnitt.](https://help.github.com/categories/github-pages-basics/).
