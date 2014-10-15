@@ -15,5 +15,6 @@ och då speciellt webben som jag alltid funnit intressant och lockande.
 
 
 ##Kontakt
+- [Linkedin](https://www.linkedin.com/pub/robin-karlsson/88/5b9/661)
 - [Twitter](http://twitter.com/ropkn)
 - [Github](http://www.github.com/rk222ev)
