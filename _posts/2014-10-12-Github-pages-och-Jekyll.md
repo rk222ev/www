@@ -19,7 +19,7 @@ man vill hosta dom på ett annat sätt.
 Det är github som hostar sidan via [Github pages](https://pages.github.com/). Det är inte sämre än att det även generarar själva 
 HTML filerna direkt från [Jekyll](http://www.jekyllrb.com) filerna skrivet i markdown och gjort med templates.
 
-För att skapa ett nytt inlägg skapar jag bara en ny markdown fil och fyller på med mitt innehåll. [Github](http://pages.github.com ser sedan till att 
+För att skapa ett nytt inlägg skapar jag bara en ny markdown fil och fyller på med mitt innehåll. [Github](http://pages.github.com) ser sedan till att 
 allt presenteras snyggt i HTML. Alltså behöver jag inte, om jag inte vill, installera [Jekyll](http://www.jekyllrb.com) på min lokala dator. 
 
 
