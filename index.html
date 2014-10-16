@@ -12,18 +12,17 @@ description: Robin Karlsson, webbprogrammerarstudent Linnéuniversitetet.
         {{ post.title }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
     {{ post.content }}
   </div>
-  <hr>
+  <div class="line-separator"></div>
+  <div class="post-author">{{ site.author.name }} {{ post.date | date_to_string }}</div>
   {% endfor %}
 </div>
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page }}">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
