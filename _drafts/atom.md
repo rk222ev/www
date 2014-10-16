@@ -8,9 +8,12 @@ Ytterligare en texteditor? Känns som det finns hur mycket som helst att välja 
 Nu har jag dock gått över till [Atom](http://atom.io).
 
 ##Vad utmärker Atom?
-Texteditorn är helt byggd på webbtekniker. HTML, CSS och Javascript bygger upp programmet.
+Texteditorn är helt byggd på webbtekniker. <strong>HTML, CSS och Javascript</strong> bygger upp programmet.
 Som studerande webbprogrammerare finner jag detta ganska häftigt och inspirerande. Rent
 funktionsmässiga skillnader är jag lite för dåligt insatt i för att kunna göra ett utlåtande.
+Dessutom koppas trädet ihop med ditt Gitrepo och o-comittade ändringar färgas orangea, filer som inte blivit
+tillagda färgas gröna och filer som ignoreras gråas ut. Det finns säkert mängder med fler funktioner som jag
+ännu inte hittat. Men får återkomma om dessa i så fall.
 
 ##Omdöme.
 Än klarar Atom alla mina krav på en editor.
@@ -24,9 +27,10 @@ funktionsmässiga skillnader är jag lite för dåligt insatt i för att kunna g
 Plus en mängd andra plugins som jag vant mig vid sen [Sublime Text](http://www.sublimetext.com). Har du några bra tips på plugins
 kontakta mig gärna på t.ex. [Twitter](http://www.twitter.com/ropkn).
 
+
 Är man intresserad av Webb och dessa tekniker tycker jag
 definitivt man bör testa [Atom](http://atom.io). Extra plus i kanten är att programmet är Open Source och släppt under MIT
-liscens. Så bara att hämta hem och börja koda.
+licens. Så bara att hämta hem och börja koda.
 
 Dessa saker räcker för egen del och det är nu [Atom](http://atom.io) som är det verktyg jag väljer i mitt
-dagliga arbete.
+dagliga arbete. Vi får väl se hur länge det fortsätter att vara det.
