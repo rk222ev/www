@@ -32,7 +32,7 @@ Tycker allt efter laboration 2.2 var mycket intressanta och gav en mycket störr
 
 ##Tankar
 Tyvärr windowsbaserat. Hade helst sysslat med något där jag inte behöver köra windows i VirtualBox.
-Mina datorer kör [Debian GNU/Linux](debian.org). Men bortsett från att behöva köra med en virtuell dator
+Mina datorer kör [Debian GNU/Linux](http://www.debian.org). Men bortsett från att behöva köra med en virtuell dator
 är Visual Studio 2013, som vi får genom universitetet, en mycket trevlig IDE och gör definitivt så att
 det är värt att starta windows virtualiseringen då open-source versionen av .net [Mono](http://www.mono-project.com/)
 och att hitta en bra utvecklingsmiljö till Linux känns som ett större projekt.
