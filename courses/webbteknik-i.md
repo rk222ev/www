@@ -13,8 +13,9 @@ description: Kurssida för Webbteknik I
 
 > -- <cite>[Kursens webbplats](https://coursepress.lnu.se/kurs/webbteknik-i/)</cite>
 
-##Länksamling
 ---
+##Länksamling
+
 - [Kursinformation](https://coursepress.lnu.se/kurs/webbteknik-i/)
 - [Laborationer](https://github.com/rk222ev/1dv403-laborationer)
 
