@@ -1,23 +1,23 @@
 ---
 layout: page
-title: Kurser 
+title: Kurser
 description: "Robin Karlssons kurser på Webbprogrammerarprogrammet Linnéuniversitetet."
 ---
 Samlingssida för kurserna jag går på mitt program. Varje kurs länkar till rätt Github repo.
 Försöker även att fylla på med lite tankar, länkar eller annat som jag kan tycka vara relevant.
 
 ##Kurser som pågår just nu:
-- [Webbteknisk introduktion] (webbteknisk-introduktion)
-- [Inledande programmering med C#] (inledande-programmering-med-c-sharp)
+- [Webbteknik I](webbteknik-i)
+- [Iterativ mjukvaruutveckling](iterativ-mjukvaruutveckling)
 
 ---
 
 ##Kurser [Webbprogrammerare 120hp](http://www.webbprogrammerare.se)
 ###Årskurs 1
-- [Webbteknisk introduktion] (webbteknisk-introduktion)
-- [Inledande programmering med C#] (inledande-programmering-med-c-sharp)
-- Webbteknik I
-- Iterativ mjukvaruutveckling
+- [Webbteknisk introduktion](webbteknisk-introduktion)
+- [Inledande programmering med C#](inledande-programmering-med-c-sharp)
+- [Webbteknik I](webbteknik-i)
+- [Iterativ mjukvaruutveckling](iterativ-mjukvaruutveckling)
 - Databasteknik
 - ASP.NET Webforms
 - Individuellt mjukvaruutecklingsprojekt
