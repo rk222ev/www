@@ -7,22 +7,21 @@ description: Robin Karlssons kursinformation i Inledande programmering med C#
 - [Kursinformation](https://coursepress.lnu.se/kurs/inledande-programmering-med-csharp/)
 
 ---
+##Laborationer
 
-##Laborationer steg 1.
+###Steg 1
 - [1 - Växelpengar](https://github.com/rk222ev/1dv402-rk222ev-1-1-vaxelpengar)
 - [2 - Rita med asterisker](https://github.com/rk222ev/1dv402-rk222ev-1-2-rita-med-asterisker)
 - [3 - Godtycklig lönerevision](https://github.com/rk222ev/1dv402-rk222ev-1-3-godtycklig-lonerevision)
 
----
 
-##Laborationer steg 2.
+###Steg 2
 - [1 - Gissa det hemliga talet](https://github.com/rk222ev/1dv402-2-1-c-gissa-det-hemliga-talet)
 - [2 - Digital väckarklocka](https://github.com/rk222ev/1dv402-2-2-digital-vackarklocka)
 - [3 - Geometriska figurer](https://github.com/rk222ev/1dv402-2-3-geometriska-figurer)
 
----
 
-##Laborationer steg 3.
+###Steg 3
 - [1 - Recept på fil](https://github.com/rk222ev/1dv402-3-1-recept-pa-fil)
 
 ---
