@@ -6,7 +6,7 @@ description: Robin Karlssons kursinformation i Inledande programmering med C#
 ---
 
 - [Kursinformation](https://coursepress.lnu.se/kurs/inledande-programmering-med-csharp/)
-- [Laborationer](https://github.com/rk222ev/Inledande-programmering-i-C-Sharp)
+- [Laborationer](https://github.com/rk222ev/1dv402)
 
 ---
 
