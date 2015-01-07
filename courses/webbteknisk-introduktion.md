@@ -14,9 +14,9 @@ description: Robin Karlssons kursinformation i Webbteknisk introduktion.
 ##Länksamling
 
 - [Kursinformation](https://coursepress.lnu.se/kurs/webbteknisk-introduktion/)
-- [Laborationer](http://1ik415.rpkn.se/)
-- [Uppgift 3.3 - Copycat](https://github.com/rk222ev/1ik415-Uppgift-3-3)
-- [Uppgift 5.3 - Fotogalleri](http://1ik415.rpkn.se/gallery)
+- [Laborationer](https://github.com/rk222ev/1ik415)
+- [Uppgift 3.3 - Copycat](https://github.com/rk222ev/1ik415/Copycat/index.html)
+- [Uppgift 5.3 - Fotogalleri](https://github.com/rk222ev/1ik415/gallery)
 - [Presentation om static site generators](http://ssg.rpkn.se)
 
 ---
