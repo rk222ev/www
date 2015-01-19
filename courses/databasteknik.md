@@ -8,7 +8,7 @@ description: Kurssida för Databasteknik
 >“Utveckling av digitala tjänster” vid Linnéuniversitetet i Kalmar och genomförs på campus såväl som
 >distans. Kursen behandlar datamodellering, databas och SQL språket.
 
->--[Kursenswebbplats](https://coursepress.lnu.se/kurs/databasteknik/)
+>--[Kursens webbplats](https://coursepress.lnu.se/kurs/databasteknik/)
 
 ---
 Länkar till laborationer kommer efterhand.

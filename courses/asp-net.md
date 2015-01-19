@@ -9,7 +9,7 @@ description: Kurssida för ASP.NET Web Forms
 >Kursen behandlar planering och skapade av webbapplikationer med ASP.NET Web Forms. Webbapplikationernas
 >persistenta data lagras i databaser och hanteras med traditionell ADO.NET.
 
->--[Kursenswebbplats](https://coursepress.lnu.se/kurs/aspnet-web-forms/)
+>--[Kursens webbplats](https://coursepress.lnu.se/kurs/aspnet-web-forms/)
 
 ---
 Länkar till laborationer kommer efterhand.
