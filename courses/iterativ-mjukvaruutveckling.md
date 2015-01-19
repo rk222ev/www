@@ -13,7 +13,6 @@ description: Kurssida för Iterativ mjukvaruutveckling
 >--[Kursenswebbplats](https://coursepress.lnu.se/kurs/iterativ-mjukvaruutveckling/)
 
 ---
-- [Kursinformation](https://coursepress.lnu.se/kurs/webbteknik-i/)
 - [Laborationer](https://github.com/rk222ev/1dv404)
 
 ---
