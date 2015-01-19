@@ -17,4 +17,3 @@ description: Kurssida för Iterativ mjukvaruutveckling
 
 ---
 
-Kursen är precis uppstartad och mer information kommer att fyllas på efterhand.

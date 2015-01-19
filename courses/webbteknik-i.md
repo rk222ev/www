@@ -22,4 +22,11 @@ description: Kurssida för Webbteknik I
 
 ---
 
-Kursen är precis uppstartad och mer information kommer att fyllas på efterhand.
+Intressant och rolig kurs. Hade gärna lagt mer tid på att utforska javascript och gjort lite större saker.
+Det extra intressant var laboration 5 "Personal Web Desktop" där vi som slut projekt gjorde en webbdesktop med fönsterhantering och program.
+
+Testade även på lite intressant bibliotek så som:
+
+- jQuery
+- Mustache
+- Require.js

@@ -7,8 +7,8 @@ Samlingssida för kurserna jag går på mitt program. Varje kurs länkar till r�
 Försöker även att fylla på med lite tankar, länkar eller annat som jag kan tycka vara relevant.
 
 ##Kurser som pågår just nu:
-- [Webbteknik I](webbteknik-i)
-- [Iterativ mjukvaruutveckling](iterativ-mjukvaruutveckling)
+- [Databasteknik](databasteknik)
+- [ASP.NET Webforms](asp-net)
 
 ---
 
@@ -18,8 +18,8 @@ Försöker även att fylla på med lite tankar, länkar eller annat som jag kan 
 - [Inledande programmering med C#](inledande-programmering-med-c-sharp)
 - [Webbteknik I](webbteknik-i)
 - [Iterativ mjukvaruutveckling](iterativ-mjukvaruutveckling)
-- Databasteknik
-- ASP.NET Webforms
+- [Databasteknik](databasteknik)
+- [ASP.NET Webforms](asp-net)
 - Individuellt mjukvaruutecklingsprojekt
 - Gränssnittsutveckling och tillgänglighet
 
