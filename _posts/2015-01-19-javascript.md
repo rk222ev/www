@@ -8,8 +8,8 @@ Tycker nog att Javascript är ett ganska trevligt språk som, tack vare sina lö
 ganska höga krav på programmeraren och dennes kunskap om javascript. Inte för att få saker att fungera.
 Men för att koden ska bli lätt att förstå och underhålla.
 Allt går att lösa på 1000 olika sätt och det finns ibland riktigt dåliga sätt att lösa vissa problem på.
-Detta innebär att eftersom programmeraren inte tvingas till att skriva "bra" javascript utan själv måste ha disciplinen
-och kunskapen att inte bara lösa sakerna med snabbfixar utan att skriva javascript som faktiskt är "bra".
+Detta innebär att eftersom programmeraren inte tvingas till att skriva "bra" javascript utan kräver att
+programmeraren själv måste ha disciplinen och kunskapen att inte bara lösa sakerna med snabbfixar utan att skriva javascript som faktiskt är "bra".
 
 Det största irritationsmomentet kring javascript känns som alla dessa ramverk och bibliotek. Känns som
 populäriteten skiftar vecka för vecka och det är extremt svårt att se vad man skulle kunna ha nytta
