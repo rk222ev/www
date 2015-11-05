@@ -6,6 +6,7 @@ description: Robin Karlssons kursinformation individuellt mjukvaruutvecklingspro
 ---
 
 - [Kursinformation](https://coursepress.lnu.se/kurs/individuellt-mjukvaruutvecklingsprojekt/)
+- [Github repo](https://github.com/rk222ev/mckartan.se)
 - [MC-kartan.se](http://mc-kartan.se)
 
 ---

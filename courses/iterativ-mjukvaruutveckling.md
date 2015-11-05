@@ -12,7 +12,3 @@ description: Kurssida för Iterativ mjukvaruutveckling
 >Tyngdpunkten i kursen ligger på planering och genomförandet av utvecklingsprojekt i grupp. Vi kommer använda oss av en pedagogik där du först får föreläsningar med viss historik samt översikt av teori och praktik. Därefter får du möjlighet att prova dig fram självständigt eller i grupp i de praktiska laborationerna. Tanken med laborationerna är att du skall prova det som kanske känns direkt som den intuitivt bästa ansatsen och därefter utifrån dina direkta erfarenheter kanske förändra och förbättra vad och hur du gör saker.
 >--[Kursens webbplats](https://coursepress.lnu.se/kurs/iterativ-mjukvaruutveckling/)
 
----
-- [Laborationer](https://github.com/rk222ev/1dv404)
-
----
