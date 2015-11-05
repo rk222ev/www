@@ -6,13 +6,10 @@ description: "Robin Karlssons kurser på Webbprogrammerarprogrammet Linnéuniver
 Samlingssida för kurserna jag går på mitt program. Varje kurs länkar till rätt Github repo.
 Försöker även att fylla på med lite tankar, länkar eller annat som jag kan tycka vara relevant.
 
-##Kurser som pågår just nu:
+## [Webbprogrammerare 120hp](http://www.webbprogrammerare.se)
 
+### Årskurs 1
 
----
-
-##Kurser [Webbprogrammerare 120hp](http://www.webbprogrammerare.se)
-###Årskurs 1
 - [Webbteknisk introduktion](webbteknisk-introduktion)
 - [Inledande programmering med C#](inledande-programmering-med-c-sharp)
 - [Webbteknik I](webbteknik-i)
@@ -24,7 +21,8 @@ Försöker även att fylla på med lite tankar, länkar eller annat som jag kan 
 
 
 
-###Årskurs 2
+### Årskurs 2
+
 - Webbutveckling med PHP
 - Objektorienterad analys och design med UML
 - Webbteknik II
