@@ -43,3 +43,24 @@ främst med frontenden.
 
 - [kodkollektivet.se](http://kodkollektivet.se/)
 - [Github](https://github.com/Kodkollektivet/kodkollektivet.se)
+
+
+---
+
+## Mashup Sveriges Radio TrafikInformation & OpenStreetMaps
+
+Gjord under kursen 1dv449 där vi kollade på API'er och Mashups. Passade även på att
+utforska hur det fungerar att köra ES2015 genom Rails assetspipeline med det högst
+experimentella sprockets-es6.
+
+### Tekniker
+
+- ES2015
+- Foundation 6
+- OpenStreetMaps
+- Ruby On Rails, sprockets-es6 
+
+### Länkar
+
+- [traffic.rpkn.se](http://traffic.rpkn.se/)
+- [Github](https://github.com/rk222ev/1dv449-laboration-3)
