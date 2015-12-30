@@ -4,7 +4,6 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            'rpkn'
@@ -15,8 +14,6 @@ baseurl:          /
 author:
   name:           'Robin Karlsson'
   url:            https://twitter.com/ropkn
-
-paginate:         5
 
 github:	
   repo: https://github.com/rk222ev          
