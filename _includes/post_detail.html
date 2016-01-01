@@ -3,4 +3,8 @@
     {{ post.title }}
 {% endif %}
 </h1>
-<div class="entry-content">{{ content }}</div>
+<span class="post-date">{{ post.date | date_to_string }}</span>
+<div class="entry-content">
+    {{ content }}
+    <p>/Robin</p>
+</div>
