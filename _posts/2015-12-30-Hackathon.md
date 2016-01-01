@@ -4,14 +4,14 @@ title: Hackathon
 ---
 
 Har nu deltagit på två hackathons hållna på/av [Plug vxo](http://www.plugvxo.se/sv). Första helgen var vi två team.
-Mittteam valde att bygga en webbapp med skoldata hämtat från excel och nersparat i [Parse](https://parse.com/) som
-vår Angularjs frontend kommunicerade direkt med. Användare kunde autentisera sig genom Facebook med Oauth och lämna
-betyg på olika skolrelaterade punkter. Ett projekt som tyvärr haltade lite på mållinjen men ändå utforskade
+Mitt team valde att bygga en webbapp med skoldata hämtat från skolverket i form av excelfiler och importera denna i [Parse](https://parse.com/)
+i sin tur kommunicerade direkt med vår Angularjs frontend. Användare kunde autentisera sig genom Facebook med Oauth och lämna
+betyg på en mängd olika punkter. Ett projekt som tyvärr haltade lite på mållinjen men ändå utforskade
 lite intressanta tekniker.
 
-Det andra teamet använde sig av Arduino för att göra ett secret knock, krypteringslås där en knackning med rätt
+Det andra teamet använde sig av Arduino för att göra ett secret knock/krypteringslås där en knackning med rätt
 timing triggade en rails app att skicka ut en kryptarad fråga som knackaren förväntades att svara på. En liten 
-servomotor öppnade vid korrekt svar låset. Ett projekt som var väldigt roligt att se och som kändes väldigt
+servomotor öppnade låset om när svaret var korrekt. Ett projekt som var väldigt roligt att se och som kändes väldigt
 inspirerande.
 
 På det andra hackatonet, några veckor senare, hade antalet deltagande team ökat till tre. Denna gång fanns även
@@ -27,11 +27,12 @@ med en analoggivare, med hjälp av [Charts.js](http://chartjs.org). Skulle tempe
 ![Automatiskt bevattningssystem](/public/pics/tfv.jpg)
 
 De två andra teamen jobbade med en progammeringsbar IR kontroller som styrdes via en mobilapp. Något som såg väldigt
-genomtänkt och verkade på riktigt användbar. Bland annat styrdes belysning, Appletv och en Roomba(?). Men då systemet
-var programmeringsbart och spelade in IR signaler från fjärrkontroller bör det kunna styra allt som använder sig av
-IR signaler.
-Det sista teamet
-rev ner en radiostyrd bil och via en node server på en rasperry pie, styrde via en arduino, bilen via en webbläsare. 
+genomtänkt och verkade på riktigt användbar. Bland annat styrdes belysning, en Appletv och en Roomba(?). Systemet
+var även programmeringsbart och spelade in IR signaler från fjärrkontroller. Därför var det enkelt att lägga till
+fler enheter.
+Det sista teamet rev ner en radiostyrd bil för att sedan bygga upp den igen. Denna gång styrd genom en nodejs
+server på en raspberry pi som i sin tur kontrollerade en arduino och styrde bilens motorer. Fördröjning
+mellan knapptryck i webbläsaren och respons hos bilen var imponerande snabb.
 Teamet jobbade också en hel del med att köra dockerinstanser på raspberry pi.
 
 Hackathonen varit väldigt roliga, inspirerande och lärorika. Ser verkligen fram mot kommande hackathon på Plug.
