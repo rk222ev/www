@@ -14,8 +14,6 @@ description: Robin Karlssons kursinformation i Webbteknisk introduktion.
 ##Länksamling
 
 - [Kursinformation](https://coursepress.lnu.se/kurs/webbteknisk-introduktion/)
-- [Laborationer](https://github.com/rk222ev/1ik415)
-- [Presentation om static site generators](http://ssg.rpkn.se)
 
 ---
 
