@@ -2,31 +2,31 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd09ab96">Background</a></li>
-<li><a href="#orgb3d35c2">What is it all about?</a></li>
-<li><a href="#org0260616">Creating Observables</a></li>
-<li><a href="#orgf7acac3">Intro to marble diagrams</a></li>
-<li><a href="#org34e816d">Some basic operators</a>
+<li><a href="#orgdda8b2f">Background</a></li>
+<li><a href="#org74afc5f">What is it all about?</a></li>
+<li><a href="#org947ecd3">Creating Observables</a></li>
+<li><a href="#orgbd05227">Intro to marble diagrams</a></li>
+<li><a href="#orgf8834f2">Some basic operators</a>
 <ul>
-<li><a href="#org5c9a10b">FlatMap</a></li>
-<li><a href="#org4753a85">ConcatMap</a></li>
-<li><a href="#org4ff1d98">Reduce</a></li>
+<li><a href="#org4c4b0ea">FlatMap</a></li>
+<li><a href="#org0ccf795">ConcatMap</a></li>
+<li><a href="#org9905abe">Reduce</a></li>
 </ul>
 </li>
-<li><a href="#orgd96eb0e">Combining Observables</a>
+<li><a href="#org9687a04">Combining Observables</a>
 <ul>
-<li><a href="#org5de0fc5">Merge</a></li>
-<li><a href="#org957f899">Zip</a></li>
+<li><a href="#org7400587">Merge</a></li>
+<li><a href="#org85a6602">Zip</a></li>
 </ul>
 </li>
-<li><a href="#orgd477385">Final thoughts</a></li>
+<li><a href="#org9ce0e7d">Final thoughts</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgd09ab96" class="outline-2">
-<h2 id="orgd09ab96">Background</h2>
-<div class="outline-text-2" id="text-orgd09ab96">
+<div id="outline-container-orgdda8b2f" class="outline-2">
+<h2 id="orgdda8b2f">Background</h2>
+<div class="outline-text-2" id="text-orgdda8b2f">
 <p>
 These notes on Reactive extensions are something I've done as a way for me to learn more about
 Reactive extension. I'm new to both Reactive extension and Java so this is an effort for me
@@ -40,9 +40,9 @@ So with that in mind, be aware that errors most certainly are present.
 </div>
 </div>
 
-<div id="outline-container-orgb3d35c2" class="outline-2">
-<h2 id="orgb3d35c2">What is it all about?</h2>
-<div class="outline-text-2" id="text-orgb3d35c2">
+<div id="outline-container-org74afc5f" class="outline-2">
+<h2 id="org74afc5f">What is it all about?</h2>
+<div class="outline-text-2" id="text-org74afc5f">
 <p>
 Think of Observables as a sequence of values emitted over time.
 Much like a normal sequential data structure, but instead of pulling data from the sequence,
@@ -54,9 +54,9 @@ asynchronous reactive systems.
 </div>
 </div>
 
-<div id="outline-container-org0260616" class="outline-2">
-<h2 id="org0260616">Creating Observables</h2>
-<div class="outline-text-2" id="text-org0260616">
+<div id="outline-container-org947ecd3" class="outline-2">
+<h2 id="org947ecd3">Creating Observables</h2>
+<div class="outline-text-2" id="text-org947ecd3">
 <p>
 There are a <a href="https://github.com/ReactiveX/RxJava/wiki/Creating-Observables">number of ways to create new Observables</a>. This post will only look at the two ways
 that I've found to be the simpler ones. The first method well look at is <code>just</code>:
@@ -161,9 +161,9 @@ System.out.println("Will this print before or after?");
 </div>
 </div>
 
-<div id="outline-container-orgf7acac3" class="outline-2">
-<h2 id="orgf7acac3">Intro to marble diagrams</h2>
-<div class="outline-text-2" id="text-orgf7acac3">
+<div id="outline-container-orgbd05227" class="outline-2">
+<h2 id="orgbd05227">Intro to marble diagrams</h2>
+<div class="outline-text-2" id="text-orgbd05227">
 <p>
 The chosen form to visualize Observables is the marble diagram. A form used extensively at the
 Reactive extensions documentation page. Most of the diagrams are interactive and you can drag the
@@ -221,13 +221,13 @@ followed by 20 and after a slight delay the last number 30.
 </div>
 </div>
 
-<div id="outline-container-org34e816d" class="outline-2">
-<h2 id="org34e816d">Some basic operators</h2>
-<div class="outline-text-2" id="text-org34e816d">
+<div id="outline-container-orgf8834f2" class="outline-2">
+<h2 id="orgf8834f2">Some basic operators</h2>
+<div class="outline-text-2" id="text-orgf8834f2">
 </div>
-<div id="outline-container-org5c9a10b" class="outline-3">
-<h3 id="org5c9a10b">FlatMap</h3>
-<div class="outline-text-3" id="text-org5c9a10b">
+<div id="outline-container-org4c4b0ea" class="outline-3">
+<h3 id="org4c4b0ea">FlatMap</h3>
+<div class="outline-text-3" id="text-org4c4b0ea">
 <p>
 The first operator we'll look at is flatMap. As the name hints flatMap is similar to map. The difference
 is that flatMap is intended to operate on Observables that in turn return new observables. Take the initial
@@ -276,9 +276,9 @@ returns an Observable with the incremented number using <code>just</code>.
 </div>
 </div>
 
-<div id="outline-container-org4753a85" class="outline-3">
-<h3 id="org4753a85">ConcatMap</h3>
-<div class="outline-text-3" id="text-org4753a85">
+<div id="outline-container-org0ccf795" class="outline-3">
+<h3 id="org0ccf795">ConcatMap</h3>
+<div class="outline-text-3" id="text-org0ccf795">
 <p>
 <code>concatMap</code> is, as you can see from the marble diagram very similar to <code>flatMap</code> with one subtle difference.
 <code>concatMap</code> respects the order in which we declare our data.
@@ -306,9 +306,9 @@ Observable in the same order as we sent the requests.
 </div>
 </div>
 
-<div id="outline-container-org4ff1d98" class="outline-3">
-<h3 id="org4ff1d98">Reduce</h3>
-<div class="outline-text-3" id="text-org4ff1d98">
+<div id="outline-container-org9905abe" class="outline-3">
+<h3 id="org9905abe">Reduce</h3>
+<div class="outline-text-3" id="text-org9905abe">
 <p>
 This operator takes an Observable and calls the operator with two arguments. First the previously returned value
 or the default value of the datatype returned by the operator and secondly the currently emitted value.
@@ -334,9 +334,9 @@ returned value of one and n will be 2. The last call sum will be 3 and n will be
 </div>
 </div>
 
-<div id="outline-container-orgd96eb0e" class="outline-2">
-<h2 id="orgd96eb0e">Combining Observables</h2>
-<div class="outline-text-2" id="text-orgd96eb0e">
+<div id="outline-container-org9687a04" class="outline-2">
+<h2 id="org9687a04">Combining Observables</h2>
+<div class="outline-text-2" id="text-org9687a04">
 <p>
 To keep evaluating and performing our observables we need to keep pushing the Observables
 to the top of our chain. Sometimes we end up with two or more sequences that need to be
@@ -344,9 +344,9 @@ executed. So let's look at some of the basic ways of <a href="https://github.com
 </p>
 </div>
 
-<div id="outline-container-org5de0fc5" class="outline-3">
-<h3 id="org5de0fc5">Merge</h3>
-<div class="outline-text-3" id="text-org5de0fc5">
+<div id="outline-container-org7400587" class="outline-3">
+<h3 id="org7400587">Merge</h3>
+<div class="outline-text-3" id="text-org7400587">
 <p>
     Merges two Observable sequences. The values will be emitted as they are received ignoring the order
 that they are declared in.
@@ -375,9 +375,9 @@ Observable.merge(as, bs)
 </div>
 </div>
 
-<div id="outline-container-org957f899" class="outline-3">
-<h3 id="org957f899">Zip</h3>
-<div class="outline-text-3" id="text-org957f899">
+<div id="outline-container-org85a6602" class="outline-3">
+<h3 id="org85a6602">Zip</h3>
+<div class="outline-text-3" id="text-org85a6602">
 <p>
     Zip takes a number of  Observable sequences, collects the first value emitted by each sequence
 and calls the operator with values "zipped" together. Will complete as soon as one of the sequences
@@ -408,9 +408,9 @@ Observable.zip(
 </div>
 </div>
 
-<div id="outline-container-orgd477385" class="outline-2">
-<h2 id="orgd477385">Final thoughts</h2>
-<div class="outline-text-2" id="text-orgd477385">
+<div id="outline-container-org9ce0e7d" class="outline-2">
+<h2 id="org9ce0e7d">Final thoughts</h2>
+<div class="outline-text-2" id="text-org9ce0e7d">
 <p>
 And so we reach the end of this quick intro to Observables.
 Hopefully it's enough to get you started. A good resource to learn more is the <a href="http://reactivex.io/">Reactive extensions</a> website.
