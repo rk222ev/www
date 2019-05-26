@@ -1,0 +1,104 @@
+<!doctype html><html><head><meta charset="UTF-8" /><meta content="ie=edge" http-equiv="x-ua-compatible" /><meta content="" name="description" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><title>rpkn.se - Getting started with Haskell</title><link href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css" rel="stylesheet" type="text/css" /><link href="/default.css" rel="stylesheet" type="text/css" /></head><body><div id="wrap"><div id="header"><h1><a href="">rpkn.se</a></h1><div id="navigation"><ul><li><a href="/index.html">Home</a></li><li><a href="/about.html">About</a></li></ul></div></div><div class="content"></div><h1>Getting started with Haskell</h1><p>
+This guide will only show how to get going with <a href="https://www.haskell.org/">Haskell</a> using OS X and will not be very detailed.
+</p>
+
+<div id="outline-container-org6d5eca4" class="outline-2">
+<h2 id="org6d5eca4">Installation</h2>
+<div class="outline-text-2" id="text-org6d5eca4">
+<p>
+The things needed to get started are <a href="https://www.haskell.org/ghc/">The Glasgow Haskell Compiler (ghc)</a> and the
+package manager <a href="https://www.haskell.org/cabal/">Cabal</a>.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">$ brew update
+$ brew install ghc cabal-install
+</pre>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgf2e61b6" class="outline-2">
+<h2 id="orgf2e61b6">Running "Hello World!"</h2>
+<div class="outline-text-2" id="text-orgf2e61b6">
+<p>
+Create a file named something like hello-world.hs.
+Make it look like:
+</p>
+<div class="org-src-container">
+<pre class="src src-haskell">-- hello-world.hs
+
+main = putStrLn "HelloWorld"
+</pre>
+</div>
+
+<p>
+Run your program by doing using the command `runhaskell`.
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">$ runhaskell hello-world.hs
+Hello World
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbb29604" class="outline-2">
+<h2 id="orgbb29604">Using community packages</h2>
+<div class="outline-text-2" id="text-orgbb29604">
+<p>
+Here I'll show how to install and use <a href="https://hackage.haskell.org/package/HTTP">The HTTP package</a> to make a request to google and print
+the response body to stdout.
+</p>
+
+<p>
+Haskell has a community driven "central package archive of open source software": <a href="https://hackage.haskell.org/">Hackage</a>.
+</p>
+
+<p>
+Unfortunately the names of the packages you are supposed to use when installing doesn't directly
+translate over to the import statement you use in your code. For now lets just accept that the
+package Network.HTTP is installed with<a href="https://www.haskell.org/cabal/"> Cabal</a> using the name http and Network.HTTP.Conduit
+is http-conduit. Exactly how this works is a bit unclear at the moment from just looking at
+these two packages but examining some more packages should make the picture clearer.
+</p>
+
+<p>
+Anyhow. To install the http package from <a href="https://hackage.haskell.org/">Hackage</a> simply use <a href="https://www.haskell.org/cabal/">Cabal</a>:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">$ cabal install http
+</pre>
+</div>
+
+<p>
+Create a new file named something like google.hs and enter the following:
+</p>
+<div class="org-src-container">
+<pre class="src src-haskell">-- google.hs
+
+import Network.HTTP
+
+main :: IO ()
+main = do
+  body &lt;- getBody "http://www.google.se"
+  putStr body
+
+getBody :: String -&gt; IO (String)
+getBody x = getResponseBody =&lt;&lt; simpleHTTP (getRequest x)
+</pre>
+</div>
+
+<p>
+Once again run the program with:
+</p>
+<div class="org-src-container">
+<pre class="src src-shell">$ runhaskell google.hs
+# Long dump of google html... Hopefully.
+</pre>
+</div>
+</div>
+</div>
+<div id="icons"><ul><li><a href="https://github.com/rpkarlsson"><img alt="My Github" src="/images/GitHub-Mark-32px.png" /></a></li><li><a href="https://twitter.com/ropkn"><img alt="My Twitter" src="/images/TwitterLogo.png" /></a></li></ul></div><script src="/js/main.js"></script></div></body></html>

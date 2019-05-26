@@ -1,0 +1,165 @@
+<!doctype html><html><head><meta charset="UTF-8" /><meta content="ie=edge" http-equiv="x-ua-compatible" /><meta content="" name="description" /><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /><title>rpkn.se - About the blog and the technologies it uses</title><link href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css" rel="stylesheet" type="text/css" /><link href="/default.css" rel="stylesheet" type="text/css" /></head><body><div id="wrap"><div id="header"><h1><a href="">rpkn.se</a></h1><div id="navigation"><ul><li><a href="/index.html">Home</a></li><li><a href="/about.html">About</a></li></ul></div></div><div class="content"></div><h1>About the blog and the technologies it uses</h1><p>
+For a long time I've had an urge to start writing about technical and other topics that
+I find interesting. As a first post I figured I describe how my workflow looks and what
+programs I use.
+</p>
+
+<div id="outline-container-org257c070" class="outline-2">
+<h2 id="org257c070">Static site generator</h2>
+<div class="outline-text-2" id="text-org257c070">
+<p>
+The things I looked for when choosing a generator was that it had to be simple,
+use a markup language for it's templates other than html,
+be written in Clojure and have the capability to generate posts from text written in
+<a href="https://www.gnu.org/software/emacs/">emacs</a> <a href="http://orgmode.org/">org</a>-mode. After doing research I decided to use <a href="https://github.com/nakkaya">Nakkaya</a>'s static site generator,
+fittingly named, <a href="https://github.com/nakkaya/static">Static</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org600af6a" class="outline-2">
+<h2 id="org600af6a">Why clojure</h2>
+<div class="outline-text-2" id="text-org600af6a">
+<p>
+Clojure has long seemed very interesting to me and now I finally want to take the step and
+begin to use Clojure in my daily life. The decision to chose a generator written in
+Clojure was therefore pretty simple. Hopefully this decision will result in me reading
+and writing some Clojure to help make Static a better generator.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf4c8640" class="outline-2">
+<h2 id="orgf4c8640">Emacs and org</h2>
+<div class="outline-text-2" id="text-orgf4c8640">
+<p>
+The actual writing of my posts are done in <a href="https://www.gnu.org/software/emacs/">Emacs</a> and <a href="http://orgmode.org/">Org</a>. An <a href="https://www.gnu.org/software/emacs/">Emacs</a> major mode that enables you
+to export yout text from a simple markup language (think markdown) to different formats. So
+far I've used <a href="http://orgmode.org/">org-mode</a> to write this post, a presentation using <a href="http://lab.hakim.se/reveal-js/#/">Reveal.js</a> and
+pdf's using <a href="https://www.latex-project.org/">LaTeX</a> for formatting. <a href="https://www.youtube.com/watch?v=SzA2YODtgK4">This video</a> is what first got me interested in org-mode
+and demos some of the cool things in <a href="http://orgmode.org/">org-mode</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1bb013d" class="outline-2">
+<h2 id="org1bb013d">Setting up static</h2>
+<div class="outline-text-2" id="text-org1bb013d">
+<p>
+When first setting up I copied the files from <a href="https://github.com/nakkaya/nakkaya.com">Nakkaya's</a> website changing the files to fit
+my need. Lets firstly take a look at the file structure:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">.
+├── config.clj
+├── resources
+│   ├── posts
+│   │   └── 2016-06-19-how-i-write.org
+│   ├── public
+│   │   ├── default.css
+│   │   └── images
+│   ├── site
+│   │   ├── about.org
+│   │   ├── archives.clj
+│   │   └── index.clj
+│   └── templates
+│       └── default.clj
+└── static-app.jar
+</pre>
+</div>
+
+<p>
+Next is my config.clj. The last entries adds some basic styling to code thats exported from
+Org-mode. For a full description of all availible settings see the <a href="https://github.com/nakkaya/static">Static website</a>.
+</p>
+
+<div class="org-src-container">
+<pre class="src src-clojure">;; config.clj
+[:site-title "rpkn.se"
+ :site-description "Writings about things I find interesting and that I want to share."
+ :site-url "http://rpkn.se"
+ :author-name "Robin Karlsson"
+ :author-email "robinpkarlsson@gmail.com"
+ :in-dir "resources/"
+ :out-dir "html/"
+ :default-template "default.clj"
+ :encoding "UTF-8"
+ :posts-per-page 1
+ :blog-as-index true
+ ;; Settings for emacs for files written in org-mode
+ :emacs "/usr/local/bin/emacs"
+ :emacs-eval ['(require 'package)
+	      '(package-initialize)
+	      '(set-face-foreground 'font-lock-string-face "#afafff")
+	      '(set-face-foreground 'font-lock-keyword-face "#a71d5d")
+	      '(set-face-foreground 'font-lock-function-name-face "#795da3")
+	      '(set-face-foreground 'font-lock-builtin-face "#a71d5d")
+	      '(set-face-foreground 'font-lock-comment-face "#969896")
+	      '(set-face-underline 'font-lock-type-face nil)
+	      '(set-face-underline 'font-lock-constant-face nil)]]
+
+</pre>
+</div>
+
+<p>
+Lastly we'll look at "static-app.jar". This file is built by downloading <a href="https://github.com/nakkaya/static">Static</a> from it's repo
+and building the jar using the Clojure project management tool <a href="http://leiningen.org/">Leiningen</a> with the commands:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">$ lein deps
+$ lein uberjar
+</pre>
+</div>
+
+
+<p>
+To build your blog use one of the following commands:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">$ java -jar static-app.jar --build
+$ java -jar static-app.jar --watch
+$ java -jar static-app.jar --jetty
+</pre>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc040fd4" class="outline-2">
+<h2 id="orgc040fd4">Hosting the static files</h2>
+<div class="outline-text-2" id="text-orgc040fd4">
+<p>
+For hosting I chose to use GitHub pages. Just create a branch in your repo named "gh-pages".
+Remember to check that all links are working, gh-pages and your local environments can differ
+in their root path.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb102637" class="outline-2">
+<h2 id="orgb102637">Using a domain</h2>
+<div class="outline-text-2" id="text-orgb102637">
+<p>
+To use GitHub pages with a custom domain just create a file named "CNAME" in the root of
+your project folder and in it enter your domain. For example my CNAME-file looks like:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-shell">www.rpkn.se
+</pre>
+</div>
+
+<p>
+Then visit your domain provider and add a CNAME-record pointing to <i>&lt;your-username&gt;</i>.github.io.
+All settings are now done and all thats left to do is to wait until
+your dns will get the updated record connecting your domain to your newly created site.
+</p>
+
+<p>
+Happy blogging.
+</p>
+</div>
+</div>
+<div id="icons"><ul><li><a href="https://github.com/rpkarlsson"><img alt="My Github" src="/images/GitHub-Mark-32px.png" /></a></li><li><a href="https://twitter.com/ropkn"><img alt="My Twitter" src="/images/TwitterLogo.png" /></a></li></ul></div><script src="/js/main.js"></script></div></body></html>
