@@ -1,0 +1,22 @@
+#+title: Hugo and org-mode
+#+date: 2019-05-26
+#+tags[]: emacs, org-mode, hugo
+#+draft: true
+
+- [ ] Add link
+
+Apparently Hugo has support for org-mode now. This proved to be an
+excellent opportunity to migrate away from my home brewed static site
+generator Immotile. As I've changed jobs and started working with
+Clojure full time I no longer needed Immotile to scratch my Clojure
+itch. This meant that there has been no progress on Immotile for a
+very long time. That fact together with the feeling that Immotile suffered from
+feature creep, as I implemented a rather advanced Clojurescript and HTML
+hot reloading using Figwheel, has led me to move away from Immotile.
+
+Hopefully using Hugo will make it easier to write more as I find it rather
+enjoyable and something that makes me think about the topic I'm
+writing about in a deeper and more complete way. Allowing me to
+structure my thoughts a lot better.
+
+Who knows. Perhaps it'll work.

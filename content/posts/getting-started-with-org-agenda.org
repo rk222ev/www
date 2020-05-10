@@ -1,0 +1,61 @@
+#+title: Getting started with org-agenda
+#+date: 2019-05-26
+#+options: toc:nil num:nil
+#+tags[]: howto, emacs, org-mode
+
+#+link: org-tutorial https://orgmode.org/worg/org-tutorials/orgtutorial_dto.html
+#+link: unused http://cachestocaches.com/2016/9/my-workflow-org-agenda/
+#+link: unused-2 http://doc.norang.ca/org-mode.html
+
+ This is basically a shorter version of the [[https://orgmode.org/worg/org-tutorials/orgtutorial_dto.html][official org-mode
+  documentation]]. For more information and more advanced uses see that
+  link.
+
+** Getting started
+ Assuming that org-mode is already installed the first thing we need
+ to do is to let org-agenda know what files we intend to use for our
+ agenda. Say you want to have two separate files. One for your
+ personal life and one for your work life then you can use the
+ following snippet:
+
+ #+begin_src elisp
+   (setq org-agenda-files (list "~/org/work.org"
+                                "~/org/home.org"))
+ #+end_src
+
+ To make life a little bit easier I suggest you add the following keybinding:
+ #+begin_src elisp
+   (define-key global-map "\C-ca" 'org-agenda)
+ #+end_src
+
+ This will make access to org-agenda a lot more convenient using =C-c a=.
+
+ Open one of the files you specified in the =org-agenda-files= var and
+ create a new to-do item with =M-S-ret=. To view all your to-dos, both
+ home and work, call the =org-agenda= function and choose option =t=
+ for a list of all the to-dos. Visit the marked item with =ret= or
+ toggle the completion using =t=. Update the list using =g=.
+
+ To schedule a to do item use =C-c -C-s= and choose a date in the
+ pop-up. View your scheduled to-dos with =C-c a a=. Tweak the period
+ using =v= and selection the a period in the pop-up that follows.
+
+** Time-stamps
+
+ To add a time-stamp when you complete an item use the following
+ snippet:
+ #+begin_src elisp
+   (setq org-log-done t)
+ #+end_src
+
+ This will, on completing an item, insert a time-stamp under your
+ header with something like: =CLOSED: <2019-05-23 Thu 21:59>=
+
+** Shortcut summary
+
+- Create a new to-do using =M-S-ret=
+- View agenda with =C-a t=
+- Use =t= to complete an item, =ret= to visit it.
+- Schedule with =C-c C-s=
+- View all to-dos with =C-c a t=
+- View scheduled to-dos with =C-c a a=
