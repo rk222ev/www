@@ -1,0 +1,40 @@
+#+TITLE: Ranger config
+#+date: 2020-01-25T09:05:09+01:00
+#+tags[]: howto, config, unix
+
+For navigating large folders I currently use [[https://github.com/ranger/ranger][Ranger]]: "A VIM-inspired file manager
+for the console". =Ranger= uses it's own file opener =Rifle=. This post show
+how to by pass this and use =xdg-open=.
+
+[[/images/ranger.png]]
+
+** Configuration
+If you haven't used Ranger before the first step is to copy the default
+configuration by running the command
+#+begin_src shell
+$ ranger --copy-config=all
+#+end_src
+
+This will copy the default files to your =~/.config/ranger/=.
+#+begin_src
+├── commands_full.py
+├── commands.py
+├── rc.conf
+├── rifle.conf
+└── scope.sh
+#+end_src
+
+I'm only interested of changing the commands that =ranger= invokes when I'm
+opening files. That's done by editing =rifle.conf=
+To only copy =rifle.conf= the invocations is:
+#+begin_src shell
+$ ranger --copy-config=rifle
+#+end_src
+
+Since I already use a work flow involving =xdg-open= this is my
+command of choice. As i only have one rule, use =xdg-open= my =rifle.conf=
+becomes a simple:
+
+#+begin_src shell
+file, else = xdg-open "$@"
+#+end_src
