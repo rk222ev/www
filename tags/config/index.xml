@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>config, on rpkn.se</title>
+    <link>http://example.org/tags/config/</link>
+    <description>Recent content in config, on rpkn.se</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Sat, 25 Jan 2020 09:05:09 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ranger config</title>
+      <link>http://example.org/posts/ranger_config/</link>
+      <pubDate>Sat, 25 Jan 2020 09:05:09 +0100</pubDate>
+      
+      <guid>http://example.org/posts/ranger_config/</guid>
+      <description>For navigating large folders I currently use Ranger: &amp;#34;A VIM-inspired file manager for the console&amp;#34;. Ranger uses it&amp;#39;s own file opener Rifle. This post show how to by pass this and use xdg-open.  Configuration   If you haven&amp;#39;t used Ranger before the first step is to copy the default configuration by running the command $ ranger --copy-config=all   This will copy the default files to your ~/.</description>
+    </item>
+    
+  </channel>
+</rss>

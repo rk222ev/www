@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emacs, on rpkn.se</title>
+    <link>http://example.org/tags/emacs/</link>
+    <description>Recent content in emacs, on rpkn.se</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started with org-agenda</title>
+      <link>http://example.org/posts/getting-started-with-org-agenda/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/getting-started-with-org-agenda/</guid>
+      <description>This is basically a shorter version of the official org-mode documentation. For more information and more advanced uses see that link. Getting started   Assuming that org-mode is already installed the first thing we need to do is to let org-agenda know what files we intend to use for our agenda. Say you want to have two separate files. One for your personal life and one for your work life then you can use the following snippet: (setq org-agenda-files (list &amp;#34;~/org/work.</description>
+    </item>
+    
+  </channel>
+</rss>

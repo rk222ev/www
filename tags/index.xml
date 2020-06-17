@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on rpkn.se</title>
+    <link>http://example.org/tags/</link>
+    <description>Recent content in Tags on rpkn.se</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>sv-se</language>
+    <lastBuildDate>Sat, 25 Jan 2020 09:05:09 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>config,</title>
+      <link>http://example.org/tags/config/</link>
+      <pubDate>Sat, 25 Jan 2020 09:05:09 +0100</pubDate>
+      
+      <guid>http://example.org/tags/config/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>howto,</title>
+      <link>http://example.org/tags/howto/</link>
+      <pubDate>Sat, 25 Jan 2020 09:05:09 +0100</pubDate>
+      
+      <guid>http://example.org/tags/howto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unix</title>
+      <link>http://example.org/tags/unix/</link>
+      <pubDate>Sat, 25 Jan 2020 09:05:09 +0100</pubDate>
+      
+      <guid>http://example.org/tags/unix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs,</title>
+      <link>http://example.org/tags/emacs/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org-mode</title>
+      <link>http://example.org/tags/org-mode/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/tags/org-mode/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
