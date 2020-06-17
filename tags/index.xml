@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on rpkn.se</title>
-    <link>http://example.org/tags/</link>
+    <link>http://rpkn.se/tags/</link>
     <description>Recent content in Tags on rpkn.se</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>sv-se</language>
     <lastBuildDate>Sat, 25 Jan 2020 09:05:09 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://rpkn.se/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>config,</title>
-      <link>http://example.org/tags/config/</link>
+      <link>http://rpkn.se/tags/config/</link>
       <pubDate>Sat, 25 Jan 2020 09:05:09 +0100</pubDate>
       
-      <guid>http://example.org/tags/config/</guid>
+      <guid>http://rpkn.se/tags/config/</guid>
       <description></description>
     </item>
     
     <item>
       <title>howto,</title>
-      <link>http://example.org/tags/howto/</link>
+      <link>http://rpkn.se/tags/howto/</link>
       <pubDate>Sat, 25 Jan 2020 09:05:09 +0100</pubDate>
       
-      <guid>http://example.org/tags/howto/</guid>
+      <guid>http://rpkn.se/tags/howto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>unix</title>
-      <link>http://example.org/tags/unix/</link>
+      <link>http://rpkn.se/tags/unix/</link>
       <pubDate>Sat, 25 Jan 2020 09:05:09 +0100</pubDate>
       
-      <guid>http://example.org/tags/unix/</guid>
+      <guid>http://rpkn.se/tags/unix/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emacs,</title>
-      <link>http://example.org/tags/emacs/</link>
+      <link>http://rpkn.se/tags/emacs/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/emacs/</guid>
+      <guid>http://rpkn.se/tags/emacs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>org-mode</title>
-      <link>http://example.org/tags/org-mode/</link>
+      <link>http://rpkn.se/tags/org-mode/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/tags/org-mode/</guid>
+      <guid>http://rpkn.se/tags/org-mode/</guid>
       <description></description>
     </item>
     

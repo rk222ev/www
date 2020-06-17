@@ -1,22 +1,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rpkn.se</title>
-    <link>http://example.org/</link>
+    <link>http://rpkn.se/</link>
     <description>Recent content on rpkn.se</description>
     <generator>Hugo - gohugo.io</generator>
     <language>en</language>
     <contact>robinpkarlsson@gmail.com</contact>
     <copyright></copyright>
     
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://rpkn.se/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Posts</title>
-      <link>http://example.org/posts/</link>
+      <link>http://rpkn.se/posts/</link>
       <pubDate>Sat, 25 Jan 2020 09:05:09 +0100</pubDate>
       <author>Robin Karlsson</author>
-      <guid>http://example.org/posts/</guid>
+      <guid>http://rpkn.se/posts/</guid>
       <description></description>
       
       <content></content>
